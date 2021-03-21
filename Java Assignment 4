@@ -1,13 +1,19 @@
 
+
+
 <html> 
    <head> 
       <script> 
+
          // display value function
          function dis(val) 
          { 
              document.getElementById("result").value+=val 
          } 
-           
+        
+////////////////////////////////////////////////////////////////////////////
+
+
          // evaluates the digit and return result 
          function solve() 
          { 
@@ -15,7 +21,9 @@
              let y = eval(x) 
              document.getElementById("result").value = y 
          } 
-           
+       ///////////////////////////////////////////////////////////////////
+
+
          //This function will clear the display 
          function clr() 
          
@@ -107,4 +115,4 @@
               </tr> 
       </table> 
    </body> 
-</html>    
+</html> 
